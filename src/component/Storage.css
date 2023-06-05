@@ -1,0 +1,36 @@
+.app{
+  width: 100%;
+  padding: 20px;
+  border: 1px solid;
+  border-radius: 5px;
+  background: #fff;
+  align-items: center;
+  
+}
+.app h1{
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 20px;
+}
+.app input{
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding-left: 10px;
+}
+    
+.btn1{
+    text-align: center;
+     margin-top: 5px;   
+}
+.btn2{
+    text-align: center;
+     margin-top: 5px;  
+}
+.btn3{
+    text-align: center;
+    margin-top: 5px;
+    
+}

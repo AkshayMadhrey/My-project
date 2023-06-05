@@ -1,0 +1,89 @@
+.parent {
+  background: #0563b4;
+  padding: 3%;
+}
+
+.container {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* height: 100vh; */
+  /* max-width: 500px; */
+  width: 100%;
+  margin: auto;
+}
+
+.container >form {
+  width: 100%;
+  border: 1px solid #dfdfdf;
+  padding: 20px;
+  border-radius: 5px;
+  background: #fff;
+}
+
+/* responsive css style  */
+@media screen and (max-width: 400px) {
+  .parent {
+    background: green;
+  }
+}
+
+.heading h2 {
+  font-size: 1.0rem;
+  text-align: center;
+  font-weight: 500;
+  text-transform: uppercase;
+  background: -webkit-linear-gradient(#eee, rgb(69, 57, 248));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.heading h2 span {
+  font-size: 1.5rem;
+}
+
+/* pre{
+    width: 70px;
+    color: #fff;
+    font-size: larger;
+  } */
+
+button {
+  background: #0563b4;
+
+
+}
+
+p {
+  color: red
+}
+
+.link {
+  padding: 5px;
+  padding-left: 3px;
+}
+
+.social-media {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  align-content: center;
+  gap: 5%;
+  margin: 10% 0% 0% 0%;
+
+}
+
+.submit-button {
+  margin-right: 10%;
+
+
+}
+
+.facebook {
+  color: blue;
+}
+
+.youtube {
+  color: #ff0000;
+}
